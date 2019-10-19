@@ -8,21 +8,21 @@
 *We are having common interest in pursuing specialization in the field of Data Science. We as a group are planning to work on social media dataset to implement the data mining concepts.*
 
 # Data and Source description:-
--Social media analytics is the practice of gathering data from social media websites and analyzing that data to make business decisions.
+*-Social media analytics is the practice of gathering data from social media websites and analyzing that data to make business decisions.*
 
--The most common use of social media analytics is to mine customer sentiment to support marketing and customer service activities.
+*-The most common use of social media analytics is to mine customer sentiment to support marketing and customer service activities.*
 
--The first step in a social media dataset analysis is to determine for which  goals the data that is gathered and analyzed will benefit. Typical objectives include classification of the choices made by social media profile, performing sentiment analysis on the profile, getting feedback on topics,products and services, and improving public opinion for a particular topic.More advanced types of social media analysis involve sentiment analytics.
+*-The first step in a social media dataset analysis is to determine for which  goals the data that is gathered and analyzed will benefit. Typical objectives include classification of the choices made by social media profile, performing sentiment analysis on the profile, getting feedback on topics,products and services, and improving public opinion for a particular topic.More advanced types of social media analysis involve sentiment analytics.*
 
--This practice involves sophisticated natural-language-processing machine learning algorithms parsing the text in a person's social media post about a company to understand the meaning behind that person's statement.
+*-This practice involves sophisticated natural-language-processing machine learning algorithms parsing the text in a person's social media post about a company to understand the meaning behind that person's statement.*
 
--These algorithms can create a quantified score of the public's feelings toward a company based on social media interactions and give reports to management on how well the company interacts with customers.
+*-These algorithms can create a quantified score of the public's feelings toward a company based on social media interactions and give reports to management on how well the company interacts with customers.*
 
--There are a number of types of social media analytics tools for analyzing unstructured data found in tweets and Facebook posts. 
+*-There are a number of types of social media analytics tools for analyzing unstructured data found in tweets and Facebook posts. *
 
--In addition to text analysis, many enterprise-level social media analytics tools will harvest and store the data. 
+*-In addition to text analysis, many enterprise-level social media analytics tools will harvest and store the data. *
 
--As more social media analytics rely on machine learning, popular open platforms like R, Python and TensorFlow serve as social media analytics tools.
+*-As more social media analytics rely on machine learning, popular open platforms like R, Python and TensorFlow serve as social media analytics tools.*
 
 
 # Core Technical Concepts
@@ -62,7 +62,7 @@ EDA: *The data from social media sites has various characters which does not con
 
 ### - Data Preparation:
 #Steps To Prepare The Data.
-1. Get the dataset and import the libraries.
+*1. Get the dataset and import the libraries.
 2. Handle missing data.
 3. Encode categorical data.
 4. Splitting the dataset into the Training set and Test set.
@@ -70,27 +70,27 @@ EDA: *The data from social media sites has various characters which does not con
 
 So, we will be all the steps on the dataset one by one and prepare the final dataset on which we can apply regression and different algorithms.
 #1: Get The Dataset.
-We need to extract data from anyone API’s. But the data could be in any form. So we need to convert it to the CSV format. CSV stands for Comma Separated Values.
+*We need to extract data from anyone API’s. But the data could be in any form. So we need to convert it to the CSV format. CSV stands for Comma Separated Values.
 These are some of the libraries that we are going to use for this project:
 Numpy
 Matplotlib
 Pandas
-Sklearn 
+Sklearn*
 
 #2. Handle Missing Values
-When we convert the dataset to the CSV format and get the info about the data it will have missing values which is usually represented by NA. There are many ways to handle missing values. Whenever we come across minute missing values we are going to drop the rows using the .dropna function. Whenever we come across large missing values we are going to perform KNN Imputation and different interpolation methods to handle the missing values.
+*When we convert the dataset to the CSV format and get the info about the data it will have missing values which is usually represented by NA. There are many ways to handle missing values. Whenever we come across minute missing values we are going to drop the rows using the .dropna function. Whenever we come across large missing values we are going to perform KNN Imputation and different interpolation methods to handle the missing values.*
 
 #3.Encode categorical data.
-As we come across categorical data, we need to encode them into numerical format to proceed further to make the analysis. For this we need to encode the data. We are going to use the one hot encoding to encode the categorical variables when we encounter more than. 2 variables. Whenever we come across one or two variables we are going to use the label encoding. We import LabelEncoder and OneHotEncoder from sklearn.preprosseing
+*As we come across categorical data, we need to encode them into numerical format to proceed further to make the analysis. For this we need to encode the data. We are going to use the one hot encoding to encode the categorical variables when we encounter more than. 2 variables. Whenever we come across one or two variables we are going to use the label encoding. We import LabelEncoder and OneHotEncoder from sklearn.preprosseing.*
 
 #4. Split the Dataset into Training and Test Set.
-We have to feed our Data Model Training and test datasets. Generally, we split the data with a ratio of 70% for the Training Data and 30% to test data. Training Data is used to build the m model where as Test set is used to evaluate the model.  From sklearn.model_selection we are going to import train_test_split.
+*We have to feed our Data Model Training and test datasets. Generally, we split the data with a ratio of 70% for the Training Data and 30% to test data. Training Data is used to build the m model where as Test set is used to evaluate the model.  From sklearn.model_selection we are going to import train_test_split.*
 
 #5. Feature Scaling
-In a general scenario, Machine Learning is based on Euclidean distance. In our dataset we will be encountering different coulmns with different range of values. That is why this is called feature scaling. We use StandardScaler from sklearn.preprocessing to perform the scaling 
+*In a general scenario, Machine Learning is based on Euclidean distance. In our dataset we will be encountering different coulmns with different range of values. That is why this is called feature scaling. We use StandardScaler from sklearn.preprocessing to perform the scaling.*
 
 ### - Machine Learning:
-These are the 6 different algorithms that we are going to make use of:
+*These are the 6 different algorithms that we are going to make use of:*
 * Logistic Regression (LR)
 * Linear Discriminant Analysis (LDA)
 * K-Nearest Neighbors (KNN).
@@ -99,11 +99,11 @@ These are the 6 different algorithms that we are going to make use of:
 * Support Vector Machines (SVM).
 
 Select Best Model
-We now have 6 models and accuracy estimations for each. We need to compare the models to each other and select the most accurate.
+*We now have 6 models and accuracy estimations for each. We need to compare the models to each other and select the most accurate.*
 
 6. Make Predictions
-The KNN algorithm is very simple and was an accurate model based on our tests. Now we want to get an idea of the accuracy of the model on our validation set.
-This will give us an independent final check on the accuracy of the best model. It is valuable to keep a validation set just in case you made a slip during training, such as overfitting to the training set or a data leak. Both will result in an overly optimistic result.
+*The KNN algorithm is very simple and was an accurate model based on our tests. Now we want to get an idea of the accuracy of the model on our validation set.
+This will give us an independent final check on the accuracy of the best model. It is valuable to keep a validation set just in case you made a slip during training, such as overfitting to the training set or a data leak. Both will result in an overly optimistic result.*
 
 
 ### - Evaluation:
