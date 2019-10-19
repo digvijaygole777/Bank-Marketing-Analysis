@@ -68,13 +68,13 @@ EDA: *The data from social media sites has various characters which does not con
 
 ### - Data Preparation:
 #Steps To Prepare The Data.
-*1. Get the dataset and import the libraries.
-2. Handle missing data.
-3. Encode categorical data.
-4. Splitting the dataset into the Training set and Test set.
-5. Feature Scaling, if all the columns are not scaled correctly.
+1. *Get the dataset and import the libraries.*
+2. *Handle missing data.*
+3. *Encode categorical data.*
+4. *Splitting the dataset into the Training set and Test set.*
+5. *Feature Scaling, if all the columns are not scaled correctly.*
 
-So, we will be all the steps on the dataset one by one and prepare the final dataset on which we can apply regression and different algorithms.
+*So, we will be all the steps on the dataset one by one and prepare the final dataset on which we can apply regression and different algorithms.*
 #1: Get The Dataset.
 *We need to extract data from anyone API’s. But the data could be in any form. So we need to convert it to the CSV format. CSV stands for Comma Separated Values.
 These are some of the libraries that we are going to use for this project:
