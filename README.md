@@ -46,7 +46,7 @@
 [Social Media Domain Analysis (SoMeDoA)](https://pdfs.semanticscholar.org/10cc/18164991ce56ef151cb70d80a8ccff016b49.pdf)
 
 ### - Data Understanding and EDA:
-Data Understanding: Social media data has a broad term that encompasses many diverse types of data. Any type of information can be subjected to data analytics techniques to get insight that can be used to improve things. 
+*Data Understanding: Social media data has a broad term that encompasses many diverse types of data. Any type of information can be subjected to data analytics techniques to get insight that can be used to improve things. 
 Social media data offered by most social media sites gives insight into what people are responding to and engaging with on your social channels. We can use this data to measure the growth and effectiveness of your social channels, usually to improve brand awareness, profits, return on investment (ROI), and also to analyze and predict sentiments. Analytics also can help you understand what works for your competitors and their audiences.
 Each social platform has its' own analytics or insights tool:
 •	Twitter uses Twitter Analytics
@@ -54,7 +54,7 @@ Each social platform has its' own analytics or insights tool:
 •	Instagram uses the Facebook Insights platform
 •	LinkedIn offers basic, free data on your company page and full analytics software with a premium account
 •	YouTube uses the YouTube analytics dashboard
-Tracking and understanding analytics for your social media campaigns is one of the key factors to success.
+Tracking and understanding analytics for your social media campaigns is one of the key factors to success.*
 
 EDA: *The data from social media sites has various characters which does not contributes in predicting anything. For example, smiles cannot contribute in predicting the tone of the particular statement. The sentiment analysis consists of predicting the nature of the sentence. The sentiment analysis analyze language and identify topics and related sentiment within verbatim comments. Cleaning the textual data for sentiment analysis consists of removing unwanted words and symbols from the text. Most text analytics systems rely on rules-based algorithms to tokenize alphabetic languages.*
 
