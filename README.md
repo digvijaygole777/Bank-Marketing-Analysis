@@ -47,8 +47,8 @@
 
 ### - Data Understanding and EDA:
 *Data Understanding: Social media data has a broad term that encompasses many diverse types of data. Any type of information can be subjected to data analytics techniques to get insight that can be used to improve things. 
-Social media data offered by most social media sites gives insight into what people are responding to and engaging with on your social channels. We can use this data to measure the growth and effectiveness of your social channels, usually to improve brand awareness, profits, return on investment (ROI), and also to analyze and predict sentiments. Analytics also can help you understand what works for your competitors and their audiences.
-Each social platform has its' own analytics or insights tool:
+Social media data offered by most social media sites gives insight into what people are responding to and engaging with on your social channels. We can use this data to measure the growth and effectiveness of your social channels, usually to improve brand awareness, profits, return on investment (ROI), and also to analyze and predict sentiments. Analytics also can help you understand what works for your competitors and their audiences.*
+*Each social platform has its' own analytics or insights tool:*
 
 *•	Twitter uses Twitter Analytics*
 
