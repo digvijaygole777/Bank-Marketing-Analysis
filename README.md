@@ -60,7 +60,7 @@ EDA: *The data from social media sites has various characters which does not con
 
 
 
-### - Data Preparation: (CK)
+### - Data Preparation:
 #Steps To Prepare The Data.
 1. Get the dataset and import the libraries.
 2. Handle missing data.
@@ -89,7 +89,7 @@ We have to feed our Data Model Training and test datasets. Generally, we split t
 #5. Feature Scaling
 In a general scenario, Machine Learning is based on Euclidean distance. In our dataset we will be encountering different coulmns with different range of values. That is why this is called feature scaling. We use StandardScaler from sklearn.preprocessing to perform the scaling 
 
-### - Machine Learning: (CK)
+### - Machine Learning:
 These are the 6 different algorithms that we are going to make use of:
 * Logistic Regression (LR)
 * Linear Discriminant Analysis (LDA)
