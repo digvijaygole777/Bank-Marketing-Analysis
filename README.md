@@ -18,9 +18,9 @@
 
 *-These algorithms can create a quantified score of the public's feelings toward a company based on social media interactions and give reports to management on how well the company interacts with customers.*
 
-*-There are a number of types of social media analytics tools for analyzing unstructured data found in tweets and Facebook posts. *
+*-There are a number of types of social media analytics tools for analyzing unstructured data found in tweets and Facebook posts.*
 
-*-In addition to text analysis, many enterprise-level social media analytics tools will harvest and store the data. *
+*-In addition to text analysis, many enterprise-level social media analytics tools will harvest and store the data.*
 
 *-As more social media analytics rely on machine learning, popular open platforms like R, Python and TensorFlow serve as social media analytics tools.*
 
