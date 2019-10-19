@@ -52,7 +52,7 @@ Social media data offered by most social media sites gives insight into what peo
 
 *•	Twitter uses Twitter Analytics*
 
-*•	Facebook offers in-depth analytics on the Insights tab of Facebook pages
+*•	Facebook offers in-depth analytics on the Insights tab of Facebook pages*
 
 *•	Instagram uses the Facebook Insights platform*
 
