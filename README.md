@@ -151,7 +151,7 @@ A system with the high recall but having low precision returns many results, but
 
 ### - Conclusion:
 
-*We will perform prediction and sentimental analysis on the Bank Marketing Data Set.*
+*We will develop classification model that can predict accurately whether the client will subscribe term deposit.*
 
 
 # Contributors:
@@ -163,7 +163,7 @@ A system with the high recall but having low precision returns many results, but
 
 # TODO
 Our next steps include:
-Implementing machine learning algorithms to predict if the client will subscribe term deposit i.e variable y.
+Implementing classification algorithms to predict whether the client will subscribe term deposit or not i.e variable y.
 
 # Contact
 Aniruddha Sudhindra Shirahatti - ashiraha@uncc.edu
