@@ -1,34 +1,49 @@
 # Project Name/Intro:
 ### - Project Name: Kdd_project_8
 ### - Project Introduction:
-*Social media and social networking sites are online platforms where people can connect with their real-life family, friends, and colleagues, and build new relations with others who share similar interests. The most popular English social media sites in 2019 are Twitter, Facebook, and Reddit. Our aim is to handle the social media related dataset by using classification, regression, performing Sentiment analysis and using various machine learning algorithm on the same. We have selected the social media dataset because it can have huge variety of subdomains, multiple attributes, large number of data points and much more.*
+Nowadays customer is becoming more sophisticated about their choice and quality of service being served to them. Throughout the life, customers try their best to fulfill their demands. The place where things are swapped or say common needs are fulfilled is called the market. The efforts to make people aware of your offerings inspiring them to deal with you and let them believe that in doing so, they are fulfilling their needs at its best is called marketing. After the banking sector improvements, marketing has established as a more combined function within financial service. Financial institutions as banks have done rapid changes in the operational environment. The marketing of bank products has become a very difficult subject as it involves the knowledge of economics, sociology, psychology and also essential marketing idea. In marketing, it is the customer who has the personal choice and the intonation of effective marketing of banking products lies in the regular and professional tactic towards fulfilling customer’s needs.
 
 ### - Team Introduction:
 *Aniruddha Sudhindra Shirahatti, Chandrakanth Rajesh, Digvijay Gole, Krishna Vishwanatham, Yash Bonde.* 
-*We are having common interest in pursuing specialization in the field of Data Science. We as a group are planning to work on social media dataset to implement the data mining concepts.*
+*We are having common interest in pursuing specialization in the field of Data Science. We as a group are planning to work on Bank Marketing Data Set to implement the data mining concepts.*
 
 # Data and Source description:-
-*-Social media analytics is the practice of gathering data from social media websites and analyzing that data to make business decisions.*
+The data is related with direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed.
 
-*-The most common use of social media analytics is to mine customer sentiment to support marketing and customer service activities.*
+Input variables:
+-bank client data:
+1 - age (numeric)
+2 - job : type of job (categorical: 'admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown')
+3 - marital : marital status (categorical: 'divorced','married','single','unknown'; note: 'divorced' means divorced or widowed)
+4 - education (categorical: 'basic.4y','basic.6y','basic.9y','high.school','illiterate','professional.course','university.degree','unknown')
+5 - default: has credit in default? (categorical: 'no','yes','unknown')
+6 - housing: has housing loan? (categorical: 'no','yes','unknown')
+7 - loan: has personal loan? (categorical: 'no','yes','unknown')
+- related with the last contact of the current campaign:
+8 - contact: contact communication type (categorical: 'cellular','telephone')
+9 - month: last contact month of year (categorical: 'jan', 'feb', 'mar', ..., 'nov', 'dec')
+10 - day_of_week: last contact day of the week (categorical: 'mon','tue','wed','thu','fri')
+11 - duration: last contact duration, in seconds (numeric). Important note: this attribute highly affects the output target (e.g., if duration=0 then y='no'). Yet, the duration is not known before a call is performed. Also, after the end of the call y is obviously known. Thus, this input should only be included for benchmark purposes and should be discarded if the intention is to have a realistic predictive model.
+- other attributes:
+12 - campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
+13 - pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric; 999 means client was not previously contacted)
+14 - previous: number of contacts performed before this campaign and for this client (numeric)
+15 - poutcome: outcome of the previous marketing campaign (categorical: 'failure','nonexistent','success')
+- social and economic context attributes
+16 - emp.var.rate: employment variation rate - quarterly indicator (numeric)
+17 - cons.price.idx: consumer price index - monthly indicator (numeric)
+18 - cons.conf.idx: consumer confidence index - monthly indicator (numeric)
+19 - euribor3m: euribor 3 month rate - daily indicator (numeric)
+20 - nr.employed: number of employees - quarterly indicator (numeric)
 
-*-The first step in a social media dataset analysis is to determine for which  goals the data that is gathered and analyzed will benefit. Typical objectives include classification of the choices made by social media profile, performing sentiment analysis on the profile, getting feedback on topics,products and services, and improving public opinion for a particular topic.More advanced types of social media analysis involve sentiment analytics.*
-
-*-This practice involves sophisticated natural-language-processing machine learning algorithms parsing the text in a person's social media post about a company to understand the meaning behind that person's statement.*
-
-*-These algorithms can create a quantified score of the public's feelings toward a company based on social media interactions and give reports to management on how well the company interacts with customers.*
-
-*-There are a number of types of social media analytics tools for analyzing unstructured data found in tweets and Facebook posts.*
-
-*-In addition to text analysis, many enterprise-level social media analytics tools will harvest and store the data.*
-
-*-As more social media analytics rely on machine learning, popular open platforms like R, Python and TensorFlow serve as social media analytics tools.*
+Output variable (desired target):
+21 - y - has the client subscribed a term deposit? (binary: 'yes','no')
 
 
 # Core Technical Concepts
 
 ### - Application of the CRISP-DM Process:
-**1. Business/Research Understanding Phase -** *In this phase, we have explored various resources on the internet to learn about the challenges and applications of the social media data for data mining. We did our research on how the social media data can be used to uncover knowledge in various domains like branding and marketing, crime and law enforcement, crisis monitoring and management, as well as public and personalized health management, etc.*
+**1. Business/Research Understanding Phase -** *In this phase, we have explored various resources on the internet to learn about the challenges and applications of the Bank marketing dataset for data mining. We did our research on how the Bank marketing dataset can be used to uncover knowledge in various domains like branding and marketing,lending loans or capitals,morgage values,and management, as well as public and personalized insurances .*
 
 **2. Data Understanding Phase -** *In this phase, we will make observations by looking at the data and checking of the relationship among the variables, potential independent and dependent variables, continuous variables, flag variables, categorical varaibles, mean, median and standard deviation in the data fetaures.*
 
@@ -41,29 +56,16 @@
 **6. Deployment Phase -** *In this phase, we will deploy the model so that the intended users can incorporate our product for their business requirements.*
 
 ### - Domain Knowledge (document sources):
-[DOMAIN-SPECIFIC USE CASES FOR KNOWLEDGE-ENABLED SOCIAL MEDIA ANALYSIS](http://www.knoesis.org/node/2895)
+[DOMAIN-SPECIFIC KNOWLEDGE FOR BANK MARKETING](https://www.omicsonline.org/open-access/marketing-of-financial-and-banking-products-an-example-frombangladeshi-bank-2168-9601-1000159.php?aid=76106)
 
-[Social Media Domain Analysis (SoMeDoA)](https://pdfs.semanticscholar.org/10cc/18164991ce56ef151cb70d80a8ccff016b49.pdf)
 
-### - Data Understanding and EDA:
-*Data Understanding: Social media data has a broad term that encompasses many diverse types of data. Any type of information can be subjected to data analytics techniques to get insight that can be used to improve things. 
-Social media data offered by most social media sites gives insight into what people are responding to and engaging with on your social channels. We can use this data to measure the growth and effectiveness of your social channels, usually to improve brand awareness, profits, return on investment (ROI), and also to analyze and predict sentiments. Analytics also can help you understand what works for your competitors and their audiences.*
-*Each social platform has its' own analytics or insights tool:*
 
-*•	Twitter uses Twitter Analytics*
+### - Data Understanding :
+Marketing of bank products is the aggregate function absorbed at providing facility to satisfy customer’s monetary needs and wants, more than the rivalry keeping in view the organizational objectives. Banking is a personalized service oriented industry and hence should provide services which satisfy the customers’ needs. The marketing tactic includes forestalling, classifying, responding and satisfying the customers’ needs and wants effectually, professionally, and beneficially. It can be said that the presence of the bank has miniature value without the presence of the customer. The main role of the bank is not only to attain and win more and more customers but also to preserve them through operative customer facility. Marketing as associated to banking is to explain a suitable promise to a customer through a variety of products and services and also to confirm operative distribution through satisfaction. The actual contentment delivered to a customer relay on how the customer is cooperated with. It goes on to prominence that every employee from the highest executive to the most junior employee of the bank should be concerned with marketing.
 
-*•	Facebook offers in-depth analytics on the Insights tab of Facebook pages*
+The dataset is related with direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed.
 
-*•	Instagram uses the Facebook Insights platform*
-
-*•	LinkedIn offers basic, free data on your company page and full analytics software with a premium account*
-
-*•	YouTube uses the YouTube analytics dashboard*
-
-*Tracking and understanding analytics for your social media campaigns is one of the key factors to success.*
-
-EDA: *The data from social media sites has various characters which does not contributes in predicting anything. For example, smiles cannot contribute in predicting the tone of the particular statement. The sentiment analysis consists of predicting the nature of the sentence. The sentiment analysis analyze language and identify topics and related sentiment within verbatim comments. Cleaning the textual data for sentiment analysis consists of removing unwanted words and symbols from the text. Most text analytics systems rely on rules-based algorithms to tokenize alphabetic languages.*
-
+ 
 
 
 ### - Data Preparation:
@@ -113,8 +115,8 @@ This will give us an independent final check on the accuracy of the best model. 
 
 
 ### - Evaluation:
-*Social media data like facebook, Twitter and other blogs is increasing day by day. After understanding the sentiments of the social media data. We need to mine knowledge and capture the ideas from the dataset. In this process of capturing the insights from the data, we need to evaluate the results at each datamining phase which is a challenging task.
-The common problem which everyone can face is that for unbalanced social media data streams with, for example, 90%
+* After understanding the sentiments of the Bank Marketing Data Set. We need to mine knowledge and capture the ideas from the dataset. In this process of capturing the insights from the data, we need to evaluate the results at each datamining phase which is a challenging task.
+The common problem which everyone can face is that for unbalanced Bank Marketing Data Set data streams with, for example, 90%
 of the instances in one class, the simplest classifiers will have high accuracies of at least 90%.*
 
 *We can use different evaluation techniques like:*
@@ -143,13 +145,13 @@ It gives us insight not only into the errors being made by a classifier but more
 The precision-recall curve shows the tradeoff between precision and recall for different threshold. The high area under the curve represents both high recall and high precision, where high precision relates to a low false positive rate, and high recall relates to a low false negative rate. High scores for both show that the classifier is returning accurate results (high precision), as well as returning a majority of all positive results (high recall).
 A system with the high recall but having low precision returns many results, but most of its predicted labels are incorrect when compared to the training labels. A system with high precision but low recall is just the opposite, returning very few results, but most of its predicted labels are correct when compared to the training labels. The ideal system with high precision and high recall will return many of the results, with all the results retrieved correctly.*
 
-**F1 Score:**  *F1 Score is necessary when we want to seek a balance between Precision and Recall. So, the difference between F1 Score and Accuracy is what we have previously seen that accuracy can be largely contributed by a large number of True Negatives which in most social media data circumstances, we do not focus on much whereas False Negative and False Positive usually has business costs (tangible & intangible) thus F1 Score might be a better measure to use if we need to seek a balance between Precision and Recall and there is an uneven class distribution (large number of Actual Negatives).*
+
 
 **ROC (Receiver Operating Characteristics) curve:**  *The ROC curve is the plot between the true positive rate (TPR) and the false positive rate (FPR) at various threshold settings. The true-positive rate is also known as sensitivity, recall or probability of detection in the process of machine learning. The false-positive rate is also known as the fall-out or probability of false data. It can also be thought of as a plot of the power as a function of the Type I Error of the decision rule. The ROC curve is thus the sensitivity as a function of fall-out. In general methodology, if the probability distributions for both detection and false data are known, the ROC curve can be generated by plotting the cumulative distribution function of the detection probability in the y-axis against the cumulative distribution function of the false-data probability on the x-axis.*
 
 ### - Conclusion:
 
-*We will perform prediction and sentimental analysis on the social media dataset.*
+*We will perform prediction and sentimental analysis on the Bank Marketing Data Set.*
 
 
 # Contributors:
@@ -161,9 +163,7 @@ A system with the high recall but having low precision returns many results, but
 
 # TODO
 Our next steps include:
-1. Aggregating data from multiple sources
-2. Performing Exploratory Data Analysis
-3. Performing Data Preprocessing on the dataset
+Implementing machine learning algorithms to predict if the client will subscribe term deposit i.e variable y.
 
 # Contact
 Aniruddha Sudhindra Shirahatti - ashiraha@uncc.edu
