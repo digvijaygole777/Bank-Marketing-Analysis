@@ -105,10 +105,10 @@ The algorithms that we are going to make use of:
 
 * Decision Tree : In decision analysis, a decision tree can be used to visually and explicitly represent decisions and decision making. This algorithm uses a tree-like model of decisions. This algorithm in data mining helps in deriving a strategy to reach a particular goal, This is also widely used in machine learning.
 
-
+* Random Forest : Random Forest is a supervised classification algorithm. This algorithm helps to create a Forest and make it random. There is a direct relationship between the number of trees in the forest and the results it can get: the larger the number of trees, the more accurate the result. But one thing to note is that creating the forest is not the same as constructing the decision with information gain or gain index approach.
 
 Select Best Model
-We now have 6 models and accuracy estimations for each. We need to compare the models to each other and select the most accurate.
+We now have models and accuracy estimations for each. We need to compare the models to each other and select the most accurate.
 
 Make Predictions
 The KNN algorithm is very simple and was an accurate model based on our tests. Now we want to get an idea of the accuracy of the model on our validation set.
