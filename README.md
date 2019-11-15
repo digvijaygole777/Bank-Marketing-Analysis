@@ -101,13 +101,11 @@ We have to feed our Data Model Training and test datasets. Generally, we split t
 In a general scenario, Machine Learning is based on Euclidean distance. In our dataset we will be encountering different coulmns with different range of values. That is why this is called feature scaling. We use StandardScaler from sklearn.preprocessing to perform the scaling.
 
 ### - Machine Learning:
-These are the 6 different algorithms that we are going to make use of:
-* Logistic Regression (LR)
-* Linear Discriminant Analysis (LDA)
-* K-Nearest Neighbors (KNN).
-* Classification and Regression Trees (CART).
-* Gaussian Naive Bayes (NB).
-* Support Vector Machines (SVM).
+The algorithms that we are going to make use of:
+
+* Decision Tree : In decision analysis, a decision tree can be used to visually and explicitly represent decisions and decision making. This algorithm uses a tree-like model of decisions. This algorithm in data mining helps in deriving a strategy to reach a particular goal, This is also widely used in machine learning.
+
+
 
 Select Best Model
 We now have 6 models and accuracy estimations for each. We need to compare the models to each other and select the most accurate.
