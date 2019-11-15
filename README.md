@@ -1,7 +1,10 @@
 # Project Name/Intro:
-### - Project Name: Kdd_project_8
+### - Project Name: Kdd_project_8 (Bank Marketing Analysis)
 ### - Project Introduction:
 Nowadays customer is becoming more sophisticated about their choice and quality of service being served to them. Throughout the life, customers try their best to fulfill their demands. The place where things are swapped or say common needs are fulfilled is called the market. The efforts to make people aware of your offerings inspiring them to deal with you and let them believe that in doing so, they are fulfilling their needs at its best is called marketing. After the banking sector improvements, marketing has established as a more combined function within financial service. Financial institutions as banks have done rapid changes in the operational environment. The marketing of bank products has become a very difficult subject as it involves the knowledge of economics, sociology, psychology and also essential marketing idea. In marketing, it is the customer who has the personal choice and the intonation of effective marketing of banking products lies in the regular and professional tactic towards fulfilling customer’s needs.
+
+### - Dataset Link: 
+[Bank Marketing Dataset](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)
 
 ### - Team Introduction:
 Aniruddha Sudhindra Shirahatti, Chandrakanth Rajesh, Digvijay Gole, Krishna Vishwanatham, Yash Bonde. 
