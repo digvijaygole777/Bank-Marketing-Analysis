@@ -112,7 +112,7 @@ These are the 6 different algorithms that we are going to make use of:
 Select Best Model
 We now have 6 models and accuracy estimations for each. We need to compare the models to each other and select the most accurate.
 
-6. Make Predictions
+Make Predictions
 The KNN algorithm is very simple and was an accurate model based on our tests. Now we want to get an idea of the accuracy of the model on our validation set.
 This will give us an independent final check on the accuracy of the best model. It is valuable to keep a validation set just in case you made a slip during training, such as overfitting to the training set or a data leak. Both will result in an overly optimistic result.
 
