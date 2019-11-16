@@ -101,18 +101,13 @@ We have to feed our Data Model Training and test datasets. Generally, we split t
 In a general scenario, Machine Learning is based on Euclidean distance. In our dataset we will be encountering different coulmns with different range of values. That is why this is called feature scaling. We use StandardScaler from sklearn.preprocessing to perform the scaling.
 
 ### - Machine Learning:
-The algorithms that we are going to make use of:
+The algorithms that we are going to make use of include:
 
-* Decision Tree : In decision analysis, a decision tree can be used to visually and explicitly represent decisions and decision making. This algorithm uses a tree-like model of decisions. This algorithm in data mining helps in deriving a strategy to reach a particular goal, This is also widely used in machine learning.
+* Decision Tree : In decision analysis, a decision tree can be used to visually and explicitly represent decisions and decision making. This algorithm uses a tree-like model of decisions. This algorithm in data mining helps in deriving a strategy to reach a particular goal. This is also widely used in machine learning.
 
 * Random Forest : Random Forest is a supervised classification algorithm. This algorithm helps to create a Forest and make it random. There is a direct relationship between the number of trees in the forest and the results it can get: the larger the number of trees, the more accurate the result. But one thing to note is that creating the forest is not the same as constructing the decision with information gain or gain index approach.
 
-Select Best Model
-We now have models and accuracy estimations for each. We need to compare the models to each other and select the most accurate.
-
-Make Predictions
-The KNN algorithm is very simple and was an accurate model based on our tests. Now we want to get an idea of the accuracy of the model on our validation set.
-This will give us an independent final check on the accuracy of the best model. It is valuable to keep a validation set just in case you made a slip during training, such as overfitting to the training set or a data leak. Both will result in an overly optimistic result.
+We are planning to use ensemble methods with Decision tree and Random forest and make best prediction (whether the client will subscribe for term deposit or not) by aggregating the obtained results.
 
 
 ### - Evaluation:
@@ -152,7 +147,7 @@ A system with the high recall but having low precision returns many results, but
 
 ### - Conclusion:
 
-We will develop classification model that can predict accurately whether the client will subscribe term deposit.
+We will develop classification model that can predict accurately whether the client will subscribe term deposit or not.
 
 
 # Contributors:
