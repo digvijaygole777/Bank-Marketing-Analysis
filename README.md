@@ -92,7 +92,7 @@ Sklearn
 2. Handle Missing Values
 When we convert the dataset to the CSV format and get the info about the data it will have missing values which is usually represented by NA. There are many ways to handle missing values. Whenever we come across minute missing values we are going to drop the rows using the .dropna function. Whenever we come across large missing values we are going to perform KNN Imputation and different interpolation methods to handle the missing values.
 
-3.Encode categorical data.
+3. Encode categorical data.
 As we come across categorical data, we need to encode them into numerical format to proceed further to make the analysis. For this we need to encode the data. We are going to use the one hot encoding to encode the categorical variables when we encounter more than. 2 variables. Whenever we come across one or two variables we are going to use the label encoding. We import LabelEncoder and OneHotEncoder from sklearn.preprosseing.
 
 4. Split the Dataset into Training and Test Set.
