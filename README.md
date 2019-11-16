@@ -72,7 +72,7 @@ The dataset is related with direct marketing campaigns of a Portuguese banking i
 
 
 ### - Data Preparation:
-#Steps To Prepare The Data.
+Steps To Prepare The Data.
 1. Get the dataset and import the libraries.
 2. Handle missing data.
 3. Encode categorical data.
@@ -81,7 +81,7 @@ The dataset is related with direct marketing campaigns of a Portuguese banking i
 
 So, we will be all the steps on the dataset one by one and prepare the final dataset on which we can apply regression and different algorithms.
 
-#1: Get The Dataset.
+1. Get The Dataset.
 We need to extract data from anyone API’s. But the data could be in any form. So we need to convert it to the CSV format. CSV stands for Comma Separated Values.
 These are some of the libraries that we are going to use for this project:
 Numpy
@@ -89,16 +89,16 @@ Matplotlib
 Pandas
 Sklearn
 
-#2. Handle Missing Values
+2. Handle Missing Values
 When we convert the dataset to the CSV format and get the info about the data it will have missing values which is usually represented by NA. There are many ways to handle missing values. Whenever we come across minute missing values we are going to drop the rows using the .dropna function. Whenever we come across large missing values we are going to perform KNN Imputation and different interpolation methods to handle the missing values.
 
-#3.Encode categorical data.
+3.Encode categorical data.
 As we come across categorical data, we need to encode them into numerical format to proceed further to make the analysis. For this we need to encode the data. We are going to use the one hot encoding to encode the categorical variables when we encounter more than. 2 variables. Whenever we come across one or two variables we are going to use the label encoding. We import LabelEncoder and OneHotEncoder from sklearn.preprosseing.
 
-#4. Split the Dataset into Training and Test Set.
+4. Split the Dataset into Training and Test Set.
 We have to feed our Data Model Training and test datasets. Generally, we split the data with a ratio of 70% for the Training Data and 30% to test data. Training Data is used to build the m model where as Test set is used to evaluate the model.  From sklearn.model_selection we are going to import train_test_split.
 
-#5. Feature Scaling
+5. Feature Scaling
 In a general scenario, Machine Learning is based on Euclidean distance. In our dataset we will be encountering different coulmns with different range of values. That is why this is called feature scaling. We use StandardScaler from sklearn.preprocessing to perform the scaling.
 
 ### - Machine Learning:
