@@ -80,6 +80,7 @@ The dataset is related with direct marketing campaigns of a Portuguese banking i
 5. Feature Scaling, if all the columns are not scaled correctly.
 
 So, we will be all the steps on the dataset one by one and prepare the final dataset on which we can apply regression and different algorithms.
+
 #1: Get The Dataset.
 We need to extract data from anyone API’s. But the data could be in any form. So we need to convert it to the CSV format. CSV stands for Comma Separated Values.
 These are some of the libraries that we are going to use for this project:
